@@ -125,6 +125,9 @@ pc.script.createLoadingScreen(function (app) {
         
     app.on('preload:end', function () {
         app.off('preload:progress');
+        setTimeout(function () {
+            document.getElementById("anyColor").style.display="block";
+        },1000);
     });
     app.on('preload:progress', setProgress);
     app.on('start', hideSplash);

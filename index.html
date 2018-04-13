@@ -8,6 +8,7 @@
     <style></style>
     <title>os_test_4_demo</title>
     <script src="playcanvas-stable.min.js"></script>
+    <script src="jscolor/jscolor.js"></script>
     <script>
         ASSET_PREFIX = "";
         SCRIPT_PREFIX = "";
@@ -26,5 +27,16 @@
 <body>
     <script src="start.js"></script>
     <script src="loading.js"></script>
+    <div id="anyColor" style="display:none;position:  absolute;bottom: 50px;right: 200px;color: aliceblue;">
+        <span>任意颜色: </span><input class="jscolor" value="ab2567" onchange="anyColorChange(this.value)">
+    </div>
+    <script type="text/javascript">
+
+        function anyColorChange(value) {
+            var color = "#" + value;
+            window.changeAnyColor(color);
+        }
+
+    </script>
 </body>
 </html>
