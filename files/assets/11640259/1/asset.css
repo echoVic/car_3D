@@ -1,0 +1,63 @@
+#c_div{
+    position:absolute;
+    bottom:0;
+    right:30%;
+}
+#my_color{
+    width:510px;
+    height:136px;
+    background:url(http://res.itqiche.com/tmp/cbg.png) no-repeat;
+}
+#my_color div{
+    width:32px;
+    height:32px;
+    float:right;
+    margin:7px;
+}
+
+#zy_bg{
+    width:392px;
+    height:134px;
+    background:url(http://res.itqiche.com/tmp/zybg.png) no-repeat;
+}
+
+.enterImg{
+    position:absolute;
+    left:0;
+    margin:10px;
+}
+.bar{
+    height:400px;
+    width:44px;
+    position:absolute;
+    right:0;
+    top:50%;
+    margin:-200px 20px 0 0;
+}
+.scale{
+    height:386px;
+    width:44px;
+}
+.scale div{
+    height:386px;
+    width:44px;
+    position:relative;
+    top:22px;
+    background:url(http://res.itqiche.com/tmp/bar_bg.png) no-repeat;
+}
+.scale span{
+    position:absolute;
+    cursor:pointer;
+    width:44px;
+    height:44px;
+    right:4px;
+    background:url(http://res.itqiche.com/tmp/bar.png) no-repeat;
+}
+.scale .car_speed_txt{
+    
+}
+@media (max-width: 767px), (max-height: 767px) {
+    .bar{
+        margin:-200px 2px 0 0;
+    }
+}
